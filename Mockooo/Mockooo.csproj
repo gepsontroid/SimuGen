@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4f59ece7-fba8-44cb-82be-612dc30eb61c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="MQTTnet" Version="4.2.1.781" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataExporter\DataExporter\ExporterCSVTSV\ExporterCSVTSV.csproj" />
+    <ProjectReference Include="..\DataExporter\DataExporter\ExportJSON\ExportJSON.csproj" />
+    <ProjectReference Include="..\DataExporter\DataExporter\ExportMSSQL\ExportMSSQL.csproj" />
+    <ProjectReference Include="..\DataExporter\DataExporter\ExportXML\ExportXML.csproj" />
+  </ItemGroup>
+
+</Project>

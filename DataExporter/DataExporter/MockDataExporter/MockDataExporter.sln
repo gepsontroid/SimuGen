@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockDataExporter", "MockDataExporter.csproj", "{B13F8E2E-CB82-436A-9E04-FA192FAB7413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDataExporter", "..\SampleDataExporter\SampleDataExporter.csproj", "{3A8068D8-1274-4156-9E6E-BAC704A2DD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExporterCSVTSV", "..\ExporterCSVTSV\ExporterCSVTSV.csproj", "{AFD0CB3D-4031-44B1-B140-7D44DD98CAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportJSON", "..\ExportJSON\ExportJSON.csproj", "{39154B05-7433-49DC-8CA9-02E9B9A476D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportMSSQL", "..\ExportMSSQL\ExportMSSQL.csproj", "{00728EC4-9C50-411A-9D02-A0661F9D2CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportXML", "..\ExportXML\ExportXML.csproj", "{B3B7EFE0-BB02-49E3-A90A-997C17E52B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13F8E2E-CB82-436A-9E04-FA192FAB7413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13F8E2E-CB82-436A-9E04-FA192FAB7413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13F8E2E-CB82-436A-9E04-FA192FAB7413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13F8E2E-CB82-436A-9E04-FA192FAB7413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8068D8-1274-4156-9E6E-BAC704A2DD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8068D8-1274-4156-9E6E-BAC704A2DD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8068D8-1274-4156-9E6E-BAC704A2DD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8068D8-1274-4156-9E6E-BAC704A2DD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD0CB3D-4031-44B1-B140-7D44DD98CAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD0CB3D-4031-44B1-B140-7D44DD98CAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD0CB3D-4031-44B1-B140-7D44DD98CAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD0CB3D-4031-44B1-B140-7D44DD98CAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39154B05-7433-49DC-8CA9-02E9B9A476D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39154B05-7433-49DC-8CA9-02E9B9A476D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39154B05-7433-49DC-8CA9-02E9B9A476D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39154B05-7433-49DC-8CA9-02E9B9A476D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00728EC4-9C50-411A-9D02-A0661F9D2CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00728EC4-9C50-411A-9D02-A0661F9D2CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00728EC4-9C50-411A-9D02-A0661F9D2CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00728EC4-9C50-411A-9D02-A0661F9D2CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B7EFE0-BB02-49E3-A90A-997C17E52B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B7EFE0-BB02-49E3-A90A-997C17E52B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B7EFE0-BB02-49E3-A90A-997C17E52B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B7EFE0-BB02-49E3-A90A-997C17E52B79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53DE46F4-D249-48AD-A0B5-C18ACFACF8BB}
+	EndGlobalSection
+EndGlobal
